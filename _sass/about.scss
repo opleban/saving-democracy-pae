@@ -1,0 +1,44 @@
+.about {
+  ul.team-profiles {
+    margin: 0;
+    li {
+      @include clearfix;
+      list-style: none;
+      padding: 2em;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      border-bottom: 1px solid #DEDEDE;
+      background: #FFF;
+      margin-bottom: 2em;
+      &:last-child {
+        border-bottom: none;
+      }
+      .member-profile-image {
+        box-sizing: border-box;
+        img {
+          height: 20em;
+        }
+      }
+      .member-profile-text {
+        position: relative;
+        box-sizing: border-box;
+      }
+    }
+    @media(min-width: $large) {
+      li {
+        .member-profile-image {
+          height: 9em;
+          float: left;
+          img {
+            height: 100%;
+          }
+          margin-right: 1em;
+        }
+        .member-profile-text {
+          height: 9em;
+          float: left;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
