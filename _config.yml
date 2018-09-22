@@ -21,8 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: opleban
 github_username:  opleban
-baseurl: ""
-url: ""
+baseurl: "/saving-democracy/pae"
+url: "http://opleban.github.io"
 # Build settings
 markdown: kramdown
 theme: minima
