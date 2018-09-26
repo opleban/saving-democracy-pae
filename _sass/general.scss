@@ -1,0 +1,12 @@
+li.card-style {
+    @include clearfix;
+    list-style: none;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #DEDEDE;
+    background: #FFF;
+    margin-bottom: 2em;
+    &:last-child {
+        border-bottom: none;
+    }
+}

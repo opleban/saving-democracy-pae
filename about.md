@@ -6,7 +6,7 @@ permalink: /about/
 <div class="about">
   <h1>The Team</h1>
   <ul class="team-profiles">
-    <li>
+    <li class="card-style">
       <h2 class="member-name">Marta Garnelo</h2>
       <div class="member-profile-image">
         <img src="{{ "/pictures/marta.jpg" | prepend: site.baseurl }}"/>
@@ -15,7 +15,7 @@ permalink: /about/
         <p>Super cool</p>
       </div>
     </li>
-    <li>
+    <li class="card-style">
       <h2 class="member-name">Ori Pleban</h2>
       <div class="member-profile-image">
         <img src="{{ "/pictures/ori.jpg" | prepend: site.baseurl }}"/>
